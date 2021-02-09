@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+
+    <title>dev.finançe$</title>
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.svg" alt=" Logo dev.finançe$">
+    </header>
+
+    <main class="container">
+        <section id="balance">
+            <h2 class="sr-only">Balanço</h2>
+
+            <div class="card">
+                <h3>
+                    <span>Entradas</span>
+                    <img src="./images/income.svg" alt="Entradas">
+                </h3>
+
+                <p>R$ 5.000,00</p>
+            </div>
+
+            <div class="card">
+                <h3>Saídas</h3>
+
+                <p>R$ 1.000,00</p>
+            </div>
+
+            <div class="card total">
+                <h3>Total</h3>
+
+                <p>R$ 3.000,00</p>
+            </div>
+        </section>
+
+        <section id="transaction">
+            <h2 class="sr-only">Transações</h2>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="description">Luz</td>
+                        <td class="expenses">- R$ 500,00</td>
+                        <td class="date">30/01/2021</td>
+                    </tr>
+                    <tr>
+                        <td class="description">Venda Mercado Livre</td>
+                        <td class="incomes">- R$ 100,00</td>
+                        <td class="date">10/02/2021</td>
+                    </tr>
+                    <tr>
+                        <td class="description">Internet</td>
+                        <td class="expenses">- R$ 150,00</td>
+                        <td class="date">05/02/2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>dev.finançe$</p>
+    </footer>
+</body>
+
+</html>
